@@ -266,3 +266,8 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 include vendor/lineage/config/version.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
+
+# Partition overlay
+PRODUCT_COPY_FILES += \
+    vendor/lineage/overlay/partition_order.xml:$(TARGET_COPY_OUT_PRODUCT)/overlay/partition_order.xml
+
