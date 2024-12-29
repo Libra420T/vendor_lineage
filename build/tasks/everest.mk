@@ -27,5 +27,5 @@ $(LINEAGE_TARGET_PACKAGE): $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) ./vendor/parasite/common/tools/changelog
 	@echo "Package Complete: $(LINEAGE_TARGET_PACKAGE)" >&2
 
-.PHONY: bacon
-bacon: $(LINEAGE_TARGET_PACKAGE) $(DEFAULT_GOAL)
+.PHONY: everest
+everest: $(LINEAGE_TARGET_PACKAGE) $(DEFAULT_GOAL) 
