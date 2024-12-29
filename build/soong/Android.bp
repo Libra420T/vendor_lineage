@@ -1,5 +1,9 @@
 // LineageOS soong configs
 
+kernel_headers {
+    name: "device_kernel_headers_system",
+}
+
 // Target platform agnostic config modules
 soong_config_module_type {
     name: "camera_override_format_from_reserved",
